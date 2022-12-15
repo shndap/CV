@@ -1,0 +1,156 @@
+<link rel="stylesheet" href="css.css">
+<script src="./Js.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<html>
+    <title>
+        Contact Me
+    </title>
+
+    <body style="background-color:black;">
+
+    <div class="header">
+        <a href = "#default" class = "logo">Sahand's CV</a>
+        <div class="header-right">
+            <a href = "Main.html">HOME</a>
+            <a href="Aboutme.html">About me</a>
+            <a href="Myskills.html">My skills</a>
+            <a class="active" href="Contactme.html">Contact me</a>
+            <a href="Myexperiences.html">My experiences</a>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!--<div class="line-1"></div>-->
+
+    <div style="max-width: 50%; margin: auto;">
+        <h1>
+            Contact Me
+            <div class="line-2"></div>
+        </h>
+        <p class="text_style">
+            You can find me on various social media:
+            <ul class="text_style" style="list-style-type: none">
+                <li><a class="astyle" href="https://www.linkedin.com/in/sahand-akramipour-383995259/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3Ba40b2a48-0dad-4638-9308-fb08d99a1a77">
+                    <i class="fab fa-linkedin-in icon"></i>&nbsp;LinkedIn
+                </a></li>
+                <li><a class="astyle" href="https://t.me/SahandAP">
+                    <i class="fab fa-telegram icon"></i>&nbsp;Telegram
+                </a></li>
+                <li><a class="astyle" href="https://stackoverflow.com/users/20728176/sahand-akramipour">
+                    <i class="fab fa-stack-overflow icon"></i>&nbsp; Stack Overflow
+                </a></li>
+                <li><a class="astyle" href="https://github.com/shndap">
+                    <i class="fab fa-github icon"></i>&nbsp;Github
+                </a></li>
+            </ul>
+            <p class="text_style">
+            Or you can email me:
+            <ul class="text_style" style="list-style-type: none">
+                <li class="astyle"><i class="material-icons" style="vertical-align:middle">email</i> &nbsp;Sahandap@gmail.com</li>
+                <li class="astyle"><i class="material-icons" style="vertical-align:middle">email</i> &nbsp;Sahand.akramipour11@sharif.edu</li>
+            </ul>
+            </p>
+            <p class="text_style">
+                And my numbers are:
+                <ul class="text_style" style="list-style-type: none">
+                    <li class="astyle"><i class="material-icons" style="vertical-align:middle">phone</i> &nbsp;+98 991 250 3074</li>
+                    <li class="astyle"><i class="material-icons" style="vertical-align:middle">phone</i> &nbsp;+98 912 910 1533</li>
+                </ul>
+            </p>
+            <p class = "text_style">
+                Or you can contact me using this field:
+                <form action="php.php" method="post" class="text_style">
+                    <div class="row">
+                    <div class = "left50">
+                        <label for="name">Full Name:</label>
+                    </div>
+                        <div class = "left25">
+                            <input class="inp" type="text" id="name" name="name" style="font-size:medium; font-family: openlight; color: #aaa" placeholder="  Your name..." required><br><br> 
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class = "left50">
+                            <label for="mail">Email:</label>
+                        </div>
+                            <div class = "left25">
+                                <input class="inp" type="email" id="mail" name="mail" style="font-size:medium; font-family: openlight; color: #aaa" placeholder="  Your Email..." required><br><br> 
+                            </div>
+                    </div>
+
+                    <div class="row">
+                        <div class = "left50">
+                            <label for="cntnt">Message:</label>
+                        </div>
+                            <div class = "left25p" style>
+                                <input class="inp" type="text" id="cntnt" name="cntnt" style="font-size:medium; font-family: openlight; color: #aaa" placeholder="  Your Message..." required><br><br> 
+                            </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="text_style">
+                            <input type = "submit" name = "smit" value = "Submit" onclick="confirmation()">
+                        </div>
+                    </div>
+
+                    <p class = "text_style" id = "output"></p>
+
+                    </form>
+            </p>
+        </p>
+
+    </div>
+
+    <div class="footer">
+        <footer>
+            
+            <div class="social">
+                <ul>
+                    <!--LinkedIn-->
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/sahand-akramipour-383995259/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3Ba40b2a48-0dad-4638-9308-fb08d99a1a77">
+                            <i class="fab fa-linkedin-in icon"></i>
+                        </a>
+                    </li>
+                    <!--telegram-->
+                    <li>
+                        <a target="_blank" href="https://t.me/SahandAP">
+                            <i class="fab fa-telegram icon"></i>
+                        </a>
+                    </li>
+                    <!--stack-->
+                    <li>
+                        <a target="_blank" href="https://stackoverflow.com/users/20728176/sahand-akramipour">
+                            <i class="fab fa-stack-overflow icon"></i>
+                        </a>
+                    </li>
+                    <!--github-->
+                    <li>
+                        <a target="_blank" href="https://github.com/shndap">
+                            <i class="fab fa-github icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <br>
+
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="Main.html">Home</a></li>
+                <li class="list-inline-item"><a href="Aboutme.html">About</a></li>
+                <li class="list-inline-item"><a href="Contactme.html">Contact Me</a></li>
+            </ul>
+
+            <br>
+
+            <div class="femail">
+                <i class="material-icons" style="vertical-align:middle">email</i> &nbsp; Sahandap@gmail.com
+            </div>
+
+            <p class="copyright">Sahand Akramipour<br>December 2022</p>
+        </footer>
+    </div>
+    </body>
+</html>
